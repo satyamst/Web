@@ -45,7 +45,7 @@ background-color: orange;
 .b {
 font-size: 80px;
 color: black;
-margin: 100px auto;
+margin-top: 300px ;
 font-weight: bolder;
 }
 
@@ -53,6 +53,7 @@ section h2{
     justify-content: center;
     text-align: center;
     margin-left: auto;
+    margin-top: 200px;
     font-size: 50px;
     position: relative;
 
@@ -71,4 +72,15 @@ button {
     text-align: center;
     border-radius: 10px;
 margin-right: auto;
+}
+.c{
+    color:red;
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+.c div{
+    height: 100px;
+    width: 50px;
+    border: 3px;
 }
